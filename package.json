@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arjun-thakor/test.git"
+    "url": "git+https://github.com/arjun-thakor/node-react-ecommerce.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arjun-thakor/test/issues"
+    "url": "https://github.com/arjun-thakor/node-react-ecommerce/issues"
   },
-  "homepage": "https://github.com/arjun-thakor/test#readme",
+  "homepage": "https://github.com/arjun-thakor/node-react-ecommerce#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
