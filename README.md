@@ -4,7 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Steps to run the project.
+
+1. Clone the project 
+2. Open the Nodejs Command 
+3. Go to the backend folder and type npm i and then npm install
+4. To start the backend server type npm start
+5. then go to the front end folder go to type npm i and npm start 
+6. open broswer and type in http://localhost:3000/ in URL  
 
 ### `npm start`
 
