@@ -8,10 +8,9 @@ Steps to run the project.
 
 1. Clone the project 
 2. Open the Nodejs Command 
-3. Go to the backend folder and type npm i and then npm install
-4. To start the backend server type node server
-5. then go to the front end folder and type npm i and npm start 
-6. open broswer and type in http://localhost:3000/ in URL  
+3. npm install in root folder 
+4. npm run dev in root folder
+5. open broswer and type in http://localhost:3000/ in URL  
 
 ### `npm start`
 
