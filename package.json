@@ -1,12 +1,11 @@
 {
   "name": "ecomm-app",
-  "type": "module",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"nodemon --watch backend --exec node --experimental-modules backend/server.js\" \"cd frontend && npm start\"",
-    "backend": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    "start": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
-    "nodemon": "^2.0.9"
+    "nodemon": "^2.0.9",
+    "sequelize-cli": "^6.2.0"
   }
 }
