@@ -14,7 +14,7 @@ module.exports = {
 	},
 	createUser: (req, res) => {
 		// Validate request
-		if (!req.body.firstName || !req.body.lastName) {
+		if (!req.body.firstName || !req.body.lastName || !req.body.email) {
 			res.status(400).send({
 				message: "Content can not be empty!",
 			});
@@ -36,14 +36,14 @@ module.exports = {
 				});
 			});
 	},
-   getSingleUser: (req, res) => {
-      const id = req.params.id;
+	getSingleUser: (req, res) => {
+		const id = req.params.id;
 		User.findByPk(id)
 			.then((data) => res.send(data))
 			.catch((err) =>
 				res.status(500).send({
-					message:"Error retrieving user with id=" + id,
+					message: "Error retrieving user with id=" + id,
 				})
 			);
-	}
+	},
 };

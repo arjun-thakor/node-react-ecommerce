@@ -1,4 +1,5 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const userRouter = require("./routes/users");
 const db = require("./config/database");
 
@@ -9,7 +10,7 @@ db.authenticate()
 
 const app = express();
 
-app.use(express.json());
+app.use(bodyParser.json());
 app.use(userRouter);
 
 const port = process.env.PORT || 5000;
